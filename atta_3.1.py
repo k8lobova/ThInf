@@ -120,7 +120,6 @@ while True:
                 print('{} >= x   ({} >= {})'.format(check, check, x10_new))
             print()
         print('S{}, p(s{}) = {}'.format(ans, ans, p[ans - 1]))
-
     print('Выйти - 1; Продолжить - другое число: ', end='')
     v = int(input())
     if v == 1:
