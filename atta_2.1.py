@@ -1,4 +1,5 @@
 import locale
+import numpy as np
 locale.setlocale(locale.LC_ALL, '')
 
 while True:
@@ -10,7 +11,7 @@ while True:
     ch = int(input())
     print('Пример ввода данных: \n0.5 0.6 0.4 \n0.35 0.2 0.1 \n0.15 0.2 0.5\n')
 
-    import numpy as np
+
 
     matrix, matrix_new, temp = [], [], []
     H_Xi, H_Xi_Xi1, Ha, Hb, Hc, Usl_entr, one, two = 0, 0, 0, 0, 0, 0, 97, 97

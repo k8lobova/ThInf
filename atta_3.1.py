@@ -112,7 +112,7 @@ while True:
         print('k = {}, F({}) = {}, G({}) = {}'.format(k + 1, k + 1, f[k], k, g[k]))
         for i in range(len(p)):
             check = roun(f[k] + q[i] * g[k])
-            print('Для p(s{}) = {}  :  {} + {} * {} = {}'.format(i + 1, q[i], f[k], q[i], g[k], check))
+            print('Для q(s{}) = {}  :  {} + {} * {} = {}'.format(i + 1, q[i], f[k], q[i], g[k], check))
             if check < x10_new:
                 print('{} < x   ({} < {})'.format(check, check, x10_new))
                 ans = i + 1
